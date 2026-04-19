@@ -12,6 +12,8 @@ This project predicts housing prices using a linear regression model. Through ex
 * **R-squared Score:** 0.9828 (The model explains ~98% of the variance).
 * **Mean Absolute Error (MAE):** ~48,450
 
+![Model Performance](actual_vs_predicted.png)
+
 ### Key Learnings
 * **Feature Selection:** Dropped irrelevant features (correlation ~0.00) to prevent overfitting.
 * **Validation:** Verified that training and test scores are nearly identical, ensuring the model generalizes well to new data.
